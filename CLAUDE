@@ -1,0 +1,43 @@
+# Claude Code Instructions
+
+## Project Context
+
+This repository is a basic starter project for working with Claude Code.
+
+The goal is to keep the codebase simple, readable, and easy to extend.
+
+## General Rules
+
+- Prefer simple, explicit solutions.
+- Do not overengineer.
+- Keep files and folders organized.
+- Do not create unnecessary abstractions.
+- Explain relevant trade-offs before making large changes.
+- Write tests for new logic when applicable.
+- Do not commit secrets, credentials, API keys, or tokens.
+
+## Project Structure
+
+- `src/`: application source code.
+- `tests/`: automated tests.
+- `prompts/`: reusable prompts or model instructions.
+- `.env.example`: example environment variables.
+- `README.md`: setup and usage instructions.
+
+## Coding Standards
+
+- Use clear function names.
+- Keep functions small.
+- Add docstrings for non-trivial functions.
+- Prefer dependency-light implementations.
+- When adding dependencies, justify why they are needed.
+
+## Default Workflow
+
+When asked to implement something:
+
+1. Inspect the existing files.
+2. Propose a concise implementation plan.
+3. Make the smallest useful change.
+4. Add or update tests.
+5. Explain what changed and how to run it.
